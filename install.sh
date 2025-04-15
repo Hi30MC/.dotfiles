@@ -27,7 +27,7 @@ git clone https://github.com/zsh-users/zsh-completions.git ~/.local/share/zsh/sc
 
 # install secondary packages
 
-paru -S code cloudflare-warp-bin prism-launcher hyfetch
+paru -S code cloudflare-warp-bin prismlauncher hyfetch prismlauncher-themes-git
 
 # tertiary packages
 
