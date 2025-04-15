@@ -31,6 +31,11 @@ paru -S code cloudflare-warp-bin prismlauncher hyfetch prismlauncher-themes-git
 # install themes into launcher
 ln -s /usr/share/prismlauncher-themes ~/.local/share/PrismLauncher/themes
 
+# set up cloudflare warp stuffs
+sudo systemctl enable --now warp-svc.service
+warp-cli registration new
+warp-cli connect
+
 # tertiary packages
 paru -S jdk-openjdk jdk17-openjdk
 
