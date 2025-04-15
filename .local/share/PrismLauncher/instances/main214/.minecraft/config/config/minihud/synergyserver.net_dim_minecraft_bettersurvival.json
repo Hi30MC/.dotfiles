@@ -1,0 +1,41 @@
+{
+  "data_storage": {
+    "distance_pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "seed": -96937433031073418
+  },
+  "shapes": {
+    "shapes": [
+      {
+        "type": "sphere_blocky",
+        "color": 1613803696,
+        "enabled": true,
+        "display_name": "Sphere (block-based)",
+        "render_type": "outer_edge",
+        "layers": {
+          "mode": "ALL",
+          "axis": "Y",
+          "layer_single": 0,
+          "layer_above": 0,
+          "layer_below": 0,
+          "layer_range_min": 0,
+          "layer_range_max": 0,
+          "hotkey_range_min": false,
+          "hotkey_range_max": false
+        },
+        "snap": "center",
+        "combine_quads": false,
+        "center": [
+          -453.5,
+          142.0,
+          -297.5
+        ],
+        "main_axis": "UP",
+        "radius": 16.0
+      }
+    ]
+  }
+}

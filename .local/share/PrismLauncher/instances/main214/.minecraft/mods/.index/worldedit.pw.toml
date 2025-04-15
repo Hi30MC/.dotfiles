@@ -1,0 +1,16 @@
+filename = 'worldedit-mod-7.3.10.jar'
+name = 'WorldEdit'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd5538fcb1be4b25b1da315576fb95d84965a5242'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6122278
+project-id = 225608

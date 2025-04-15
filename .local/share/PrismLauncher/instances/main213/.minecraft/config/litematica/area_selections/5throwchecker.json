@@ -1,0 +1,32 @@
+{
+  "name": "5throwchecker",
+  "current": "5throwchecker 1",
+  "boxes": [
+    {
+      "pos1": [
+        2871,
+        153,
+        9
+      ],
+      "pos2": [
+        2882,
+        162,
+        30
+      ],
+      "name": "5throwchecker"
+    },
+    {
+      "pos1": [
+        2876,
+        163,
+        7
+      ],
+      "pos2": [
+        2876,
+        163,
+        7
+      ],
+      "name": "5throwchecker 1"
+    }
+  ]
+}

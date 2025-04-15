@@ -1,0 +1,16 @@
+filename = 'AlinLib-fabric-2.1.0-alpha.5+mc1.21.4.jar'
+name = 'AlinLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = 'b3c893df5a7d8976c11276316a67b3094f7af139bfce13a0814b7389f4b442c71281ba4924b97992e7ec892ab390307a8f245c3be8548f429451a82d7f39e35d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UU7VUYKE/versions/qj426RHa/AlinLib-fabric-2.1.0-alpha.5%2Bmc1.21.4.jar'
+
+[update.modrinth]
+mod-id = 'UU7VUYKE'
+version = 'qj426RHa'

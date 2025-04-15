@@ -1,0 +1,16 @@
+filename = 'Carpet-AMS-Addition-mc1.21.4-fabric-v2.57.1.jar'
+name = 'Carpet AMS Addition'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8c7ab9e19ee8fdf0bb17475d7bf67bb7c6188102'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6350989
+project-id = 1002635

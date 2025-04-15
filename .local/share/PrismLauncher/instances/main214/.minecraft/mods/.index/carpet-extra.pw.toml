@@ -1,0 +1,16 @@
+filename = 'carpet-extra-1.21.4-1.4.161.jar'
+name = 'Carpet Extra'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bfa658e2ce37bff3117ff7b83400e412fff22a4b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5960539
+project-id = 349240

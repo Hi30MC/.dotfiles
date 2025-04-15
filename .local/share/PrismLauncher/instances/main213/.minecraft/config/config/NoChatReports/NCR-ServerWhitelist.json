@@ -1,0 +1,7 @@
+{
+  "whitelistedServers": [
+    "synergyserver.net:25565",
+    "4.tcp.ngrok.io:13996",
+    "localhost:25565"
+  ]
+}

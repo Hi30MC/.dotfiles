@@ -1,0 +1,19 @@
+{
+  "name": "bsu2x2spruce",
+  "current": "bsu2x2spruce",
+  "boxes": [
+    {
+      "pos1": [
+        -9872,
+        116,
+        -9990
+      ],
+      "pos2": [
+        -9956,
+        159,
+        -9895
+      ],
+      "name": "bsu2x2spruce"
+    }
+  ]
+}

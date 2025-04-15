@@ -1,0 +1,12 @@
+{
+	"music_disc.11": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "deltarune",
+				"stream": true,
+				"weight": 1
+			}	
+		]
+	}
+}

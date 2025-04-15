@@ -1,0 +1,16 @@
+filename = 'litematica-fabric-1.21.3-0.20.2.jar'
+name = 'Litematica'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.2', '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6a7c451d4f606503a039f499df056ac0025bcfa7e1c2547db3daa6f6ea9c9e75f2a1f6a8329a7cd0e774335d781b4c0b3ba840fa0d9c0f30c8f941614300e6c2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bEpr0Arc/versions/rMmaFtpI/litematica-fabric-1.21.3-0.20.2.jar'
+
+[update.modrinth]
+mod-id = 'bEpr0Arc'
+version = 'rMmaFtpI'

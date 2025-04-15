@@ -1,0 +1,16 @@
+filename = 'tweakeroo-fabric-1.21.3-0.22.2.jar'
+name = 'Tweakeroo'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.2', '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1971e99f8ad3567d31a9335b2e04a8db975225eef3806c745c55a67b549f5b122e1c4fd93538d5538629017ec5edc496672f2cf7690f475a1c417abb11431ff9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t5wuYk45/versions/HedLeloE/tweakeroo-fabric-1.21.3-0.22.2.jar'
+
+[update.modrinth]
+mod-id = 't5wuYk45'
+version = 'HedLeloE'

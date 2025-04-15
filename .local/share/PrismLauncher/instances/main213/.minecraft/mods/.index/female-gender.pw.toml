@@ -1,0 +1,16 @@
+filename = 'Female-Gender-Mod-fabric-4.3+1.21.3.jar'
+name = 'Female Gender Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f25d55f2f82b8a017c8b058e3c121c41c9fadc72dd0f261dd3c2249ff28f51c943037bacd7aeb617b8e20d46fbdf86d3624989ce9cb81dcfc4a88d270014c15b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bcOsQHnC/versions/nlaQL1S7/Female-Gender-Mod-fabric-4.3%2B1.21.3.jar'
+
+[update.modrinth]
+mod-id = 'bcOsQHnC'
+version = 'nlaQL1S7'

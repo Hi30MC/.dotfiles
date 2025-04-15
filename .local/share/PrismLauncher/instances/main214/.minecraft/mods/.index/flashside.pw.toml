@@ -1,0 +1,16 @@
+filename = 'flashside-fabric-0.5.0+1.21.4+fb0.20.1.jar'
+name = 'Flashside'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '76640fb3be586f9e3b8909c1ca6a8da8aa03f20c81df6b45cd1e36bdb9037bf0e2c9e920f93f10ad357ead3b201f3cc89aba46f1772108986b504127cd4f965a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JsjifJaW/versions/xBXRMFqC/flashside-fabric-0.5.0%2B1.21.4%2Bfb0.20.1.jar'
+
+[update.modrinth]
+mod-id = 'JsjifJaW'
+version = 'xBXRMFqC'

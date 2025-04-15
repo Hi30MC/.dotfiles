@@ -1,0 +1,50 @@
+/tp thunda
+/su
+/co i
+/mail rzgrkzy12 you underpaid diamonds when you bought redstone blocks, you owe me 2 diamonds or risk a ba
+/mail send rzgrkzy12 you underpaid diamonds when you bought redstone blocks, you owe me 2 diamonds or risk a ban
+/co i
+/m Hardfg5000 are you gonna unroll this back or
+/su
+/cr
+/fl
+/tp vip
+/p h
+//wand
+/back
+/settings
+/tp vip
+/settings set drop false
+/settings set drops false
+/list
+/r
+/mwo
+/mvwho
+/tpa hestiad_
+/cr
+/tpa hestiad_
+/tpyes
+/warp tp wr2
+/p h
+/tp vip
+/m VipelyRS can you drop this in?
+/settings set drops true
+/warp tp wr
+/p h 2
+/tpahere vip
+/r these two too
+/tp vip
+/settings set drops false
+/tpno
+/tp vip
+/name 8x8 submission form
+/settings set drops true
+/settings set drops false
+/name 8x8 submission form
+/settings set drops true
+/settings set drops false
+/p h
+/gm 0
+/gm 1
+/tp pix
+/p h

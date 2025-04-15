@@ -1,0 +1,124 @@
+{
+  "selections": {
+    "mode": "NORMAL"
+  },
+  "placements": {
+    "placements": [
+      {
+        "schematic": "/home/ad/.local/share/PrismLauncher/instances/main204/.minecraft/schematics/Scaffolding_Shulker_Farm_V2.2.3b_Ending_Credits.litematic",
+        "name": "Scaffolding Shulker Farm V2.2.3b",
+        "origin": [
+          -10,
+          195,
+          37
+        ],
+        "rotation": "NONE",
+        "mirror": "NONE",
+        "ignore_entities": false,
+        "enabled": true,
+        "enable_render": true,
+        "render_enclosing_box": false,
+        "locked": false,
+        "locked_coords": 0,
+        "bb_color": 16738304,
+        "verifier_type": "all",
+        "placements": [
+          {
+            "name": "Scaffolding Shulker Farm V2.2.3b",
+            "placement": {
+              "pos": [
+                30,
+                38,
+                22
+              ],
+              "name": "Scaffolding Shulker Farm V2.2.3b",
+              "rotation": "NONE",
+              "mirror": "NONE",
+              "locked_coords": 0,
+              "enabled": true,
+              "rendering_enabled": true,
+              "ignore_entities": false
+            }
+          }
+        ]
+      },
+      {
+        "schematic": "/home/ad/.local/share/PrismLauncher/instances/main204/.minecraft/schematics/Simplest_Shulker_Farm_V3b_-_ballilight_xyEC.litematic",
+        "name": "Simplest Scaffolding Shulker Farm V3",
+        "origin": [
+          80,
+          207,
+          44
+        ],
+        "rotation": "NONE",
+        "mirror": "NONE",
+        "ignore_entities": false,
+        "enabled": true,
+        "enable_render": true,
+        "render_enclosing_box": false,
+        "locked": false,
+        "locked_coords": 0,
+        "bb_color": 10927575,
+        "verifier_type": "all",
+        "placements": [
+          {
+            "name": "Simplest Scaffolding Shulker Farm V3",
+            "placement": {
+              "pos": [
+                16,
+                16,
+                16
+              ],
+              "name": "Simplest Scaffolding Shulker Farm V3",
+              "rotation": "NONE",
+              "mirror": "NONE",
+              "locked_coords": 0,
+              "enabled": true,
+              "rendering_enabled": true,
+              "ignore_entities": false
+            }
+          }
+        ]
+      }
+    ],
+    "selected": 1,
+    "origin_selected": true
+  },
+  "schematic_projects_manager": {},
+  "operation_mode": "PASTE_SCHEMATIC",
+  "render_range": {
+    "mode": "ALL_BELOW",
+    "axis": "y",
+    "layer_single": 0,
+    "layer_above": 0,
+    "layer_below": 226,
+    "layer_range_min": 0,
+    "layer_range_max": 0,
+    "hotkey_range_min": false,
+    "hotkey_range_max": false
+  },
+  "area_simple": {
+    "name": "Unnamed",
+    "current": "Unnamed",
+    "boxes": [
+      {
+        "pos1": [
+          -3284,
+          158,
+          -8838
+        ],
+        "pos2": [
+          -3276,
+          186,
+          -8843
+        ],
+        "name": "Unnamed"
+      }
+    ]
+  },
+  "tool_mode_data": {
+    "delete": {
+      "use_placement": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "warden_farm",
+  "current": "warden_farm",
+  "boxes": [
+    {
+      "pos1": [
+        -50,
+        -49,
+        41
+      ],
+      "pos2": [
+        -40,
+        234,
+        30
+      ],
+      "name": "warden_farm"
+    }
+  ]
+}

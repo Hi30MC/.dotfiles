@@ -1,0 +1,57 @@
++----------------------------+-------+---------+------------+
+| Material List for placement 'CartMIS V3 + Hybrid Storage' |
++----------------------------+-------+---------+------------+
+| Item                       | Total | Missing |  Available |
++----------------------------+-------+---------+------------+
+| White Concrete             |  2461 |    2461 |          0 |
+| Quartz Stairs              |  1110 |    1110 |          0 |
+| Cyan Concrete              |  1096 |    1096 |          0 |
+| Quartz Slab                |   965 |     965 |          0 |
+| Block of Quartz            |   300 |     300 |          0 |
+| Quartz Bricks              |   298 |     298 |          0 |
+| Light Blue Concrete        |   270 |     270 |          0 |
+| Shulker Box                |   217 |     217 |          0 |
+| Quartz Pillar              |   166 |     166 |          0 |
+| Chiseled Quartz Block      |   120 |     120 |          0 |
+| Smooth Quartz Block        |   120 |     120 |          0 |
+| Smooth Quartz Slab         |    42 |      42 |          0 |
+| Gray Concrete              |    40 |      40 |          0 |
+| Sea Lantern                |    38 |      38 |          0 |
+| Purple Concrete            |    19 |      19 |          0 |
+| Yellow Concrete            |    14 |      14 |          0 |
+| Red Concrete               |    13 |      13 |          0 |
+| Light Gray Concrete        |    11 |      11 |          0 |
+| Magenta Concrete           |    11 |      11 |          0 |
+| White Banner               |    10 |      10 |          0 |
+| Lime Concrete              |     5 |       5 |          0 |
+| Black Concrete Powder      |     1 |       1 |          0 |
+| Blue Concrete              |     1 |       1 |          0 |
+| Blue Concrete Powder       |     1 |       1 |          0 |
+| Blue Glazed Terracotta     |     1 |       1 |          0 |
+| Brown Concrete             |     1 |       1 |          0 |
+| Brown Concrete Powder      |     1 |       1 |          0 |
+| Cake ?f??f??f??f??f??f??f? |     1 |       1 |          0 |
+| Crimson Stem               |     1 |       1 |          0 |
+| Cyan Concrete Powder       |     1 |       1 |          0 |
+| Gray Concrete Powder       |     1 |       1 |          0 |
+| Green Concrete             |     1 |       1 |          0 |
+| Green Concrete Powder      |     1 |       1 |          0 |
+| Light Blue Concrete Powder |     1 |       1 |          0 |
+| Light Gray Concrete Powder |     1 |       1 |          0 |
+| Lime Concrete Powder       |     1 |       1 |          0 |
+| Magenta Concrete Powder    |     1 |       1 |          0 |
+| Mycelium                   |     1 |       1 |          0 |
+| Ochre Froglight            |     1 |       1 |          0 |
+| Orange Concrete            |     1 |       1 |          0 |
+| Orange Concrete Powder     |     1 |       1 |          0 |
+| Pearlescent Froglight      |     1 |       1 |          0 |
+| Pink Concrete              |     1 |       1 |          0 |
+| Pink Concrete Powder       |     1 |       1 |          0 |
+| Purple Concrete Powder     |     1 |       1 |          0 |
+| Red Concrete Powder        |     1 |       1 |          0 |
+| Verdant Froglight          |     1 |       1 |          0 |
+| White Concrete Powder      |     1 |       1 |          0 |
+| Yellow Concrete Powder     |     1 |       1 |          0 |
++----------------------------+-------+---------+------------+
+| Item                       | Total | Missing |  Available |
++----------------------------+-------+---------+------------+

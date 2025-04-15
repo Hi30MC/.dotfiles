@@ -1,0 +1,14 @@
+{
+	"disableMod": false,
+	"inventoryRow": 3,
+	"holdToSwap": false,
+	"holdToSwapBar": false,
+	"allowDoubleTap": false,
+	"holdTime": 200,
+	"doubleTapWindow": 300,
+	"displayDoubleHotbar": true,
+	"shift": 21,
+	"renderCrop": 0,
+	"wooshVolume": 100,
+	"reverseBars": false
+}

@@ -1,0 +1,228 @@
+---- Minecraft Network Protocol Error Report ----
+// Wait, was the last bit one or zero?
+
+Time: 2025-01-25 14:04:53
+Description: Packet handling error
+
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Netty Epoll Client IO #0
+Stacktrace:
+	at knot//net.minecraft.class_2547.method_55622(class_2547.java:33)
+
+-- Connection --
+Details:
+	Protocol: play
+	Flow: CLIENTBOUND
+	Is Local: false
+	Server type: OTHER
+	Server brand: Paper (Velocity)
+Stacktrace:
+	at knot//net.minecraft.class_2547.method_55622(class_2547.java:33)
+	at knot//net.minecraft.class_2600.method_59803(class_2600.java:62)
+	at knot//net.minecraft.class_8673.method_60882(class_8673.java:131)
+	at knot//net.minecraft.class_8673.method_60881(class_8673.java:122)
+	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:161)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at knot//io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92)
+	at knot//com.viaversion.fabric.common.handler.FabricEncodeHandler.exceptionCaught(FabricEncodeHandler.java:60)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at knot//io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143)
+	at knot//com.viaversion.fabric.common.handler.FabricDecodeHandler.exceptionCaught(FabricDecodeHandler.java:84)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728)
+	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826)
+	at knot//io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.3
+	Minecraft Version ID: 1.21.3
+	Operating System: Linux (amd64) version 6.12.10-arch1-1
+	Java Version: 21.0.5, Arch Linux
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Arch Linux
+	Memory: 3187589352 bytes (3039 MiB) / 4294967296 bytes (4096 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5500
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Navi 24 [Radeon RX 6400/6500 XT/6500M]
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #0 VRAM (MiB): 258.00
+	Graphics card #0 deviceId: 0x743f
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 20090.00
+	Virtual memory used (MiB): 8244.07
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 16.02
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 15978.64, total: 15994.01
+	Space in storage for workdir (MiB): available: 866691.63, total: 1769843.75
+	JVM Flags: 2 total; -Xms4096m -Xmx4096m
+	Fabric Mods: 
+		alinlib: AlinLib 2.1.0-alpha.3+mc1.21.3
+			meteordevelopment_starscript: starscript 0.3.4
+		alinperspective: AlinPerspective 1.0.0-alpha.4
+		authme: Auth Me 8.0.0+1.21.3
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.0.6+e82f21f740
+		bedrockminer: Bedrock Miner 1.21.2-1.2.31
+		better_saved_tabs: Better Saved Tabs 0.1.0
+		blahaj-totem: Blåhaj of Undying 1.7.1+1.21.3
+		bobby: Bobby 5.2.5+mc1.21.2
+			com_typesafe_config: config 1.4.2
+			io_leangen_geantyref_geantyref: geantyref 1.3.13
+			org_spongepowered_configurate-core: configurate-core 4.1.2
+			org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		calcmod: CalcMod 1.3.3+fabric.1.21.4
+			org_mariuszgromada_math_mathparser_org-mxparser: MathParser.org-mXparser 5.0.6
+		cicada: CICADA 0.10.2+1.21.2-1.21.3
+		clientcommands: Client Commands 2.9.8
+			betterconfig: BetterConfig 2.1.2
+			clientarguments: clientarguments 1.10.1
+			net_fabricmc_mapping-io: mapping-io 0.5.1
+		cloth-config: Cloth Config v16 16.0.143
+			cloth-basic-math: cloth-basic-math 0.6.1
+		commandkeys: CommandKeys 2.3.5+1.21
+		continuity: Continuity 3.0.0+1.21.3
+		double_hotbar: Double Hotbar 1.3.4-mc1.21.2-fabric
+		fabric-api: Fabric API 0.112.1+1.21.3
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.81+fd37071f40
+			fabric-biome-api-v1: Fabric Biome API (v1) 14.0.6+fd37071f40
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.28+fd37071f40
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 2.0.4+fd37071f40
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.25+a730659c40
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.58+f71b366f40
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.37+c9d82ab240
+			fabric-commands-v0: Fabric Commands (v0) 0.2.75+df3654b340
+			fabric-content-registries-v0: Fabric Content Registries (v0) 9.1.8+fd37071f40
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.4+7f945d5b40
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.9.4+129f0c1f40
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.3.3+fd37071f40
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.4.0+dbad41f140
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 21.1.1+a730659c40
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.7+fd37071f40
+			fabric-entity-events-v1: Fabric Entity Events (v1) 2.0.8+825023f840
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 2.0.12+c2c3ac4740
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.59+fd37071f40
+			fabric-item-api-v1: Fabric Item API (v1) 11.1.7+fd37071f40
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.17+fd37071f40
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.53+fd37071f40
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.51+df3654b340
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.5.1+6da5ef6940
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.26+3f89f5a540
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.14+fd37071f40
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.21+fd37071f40
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 3.0.9+fd37071f40
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.3.5+fd37071f40
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 17.0.9+fd37071f40
+			fabric-particles-v1: Fabric Particles (v1) 4.0.10+fd37071f40
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 7.0.4+fd37071f40
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.4.1+3f3c499540
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.9.5+fd37071f40
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.84+df3654b340
+			fabric-rendering-v1: Fabric Rendering (v1) 8.0.8+6922831640
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 5.0.8+fd37071f40
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.34+fd37071f40
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.103+fd37071f40
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.29+fd37071f40
+			fabric-tag-api-v1: Fabric Tag API (v1) 1.0.0+a730659c40
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.3+fd37071f40
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.2.0+54a41b1c40
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.0+kotlin.2.1.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.1.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.1.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.1.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.1.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.26.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.9.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.9.0
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.1
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.6.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.6.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.7.3
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.7.3
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.7.3
+		fabricloader: Fabric Loader 0.16.9
+			mixinextras: MixinExtras 0.4.1
+		g4mespeed: G4mespeed 1.4.9-mc1.21.3
+		g4mespeed-capture-playback: G4mespeed Capture & Playback 0.5.5-beta-mc1.21.3
+			g4mespeed-ui: G4mespeed UI 0.9.12-mc1.21.3
+		g4mespeed-server-util: G4mespeed Server Utilities 1.1.1-mc1.21.3
+		ias: In-Game Account Switcher 9.0.2-alpha.1
+		iris: Iris 1.8.1+mc1.21.3
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		itemscroller: Item Scroller 0.25.2
+		java: OpenJDK 64-Bit Server VM 21
+		libipn: libIPN 6.2.0
+		libjf: LibJF 3.18.2
+			libjf-base: LibJF Base 3.18.2
+			libjf-config-commands: LibJF Config Commands 3.18.2
+			libjf-config-core-v2: LibJF Config 3.18.2
+			libjf-config-network-v0: LibJF Config: Network 3.18.2
+			libjf-config-ui-tiny: LibJF Config UI: Tiny 3.18.2
+			libjf-data-manipulation-v0: LibJF Data Manipulation 3.18.2
+			libjf-data-v0: LibJF Data 3.18.2
+			libjf-mainhttp-v0: LibJF MainHTTP 3.18.2
+			libjf-resource-pack-entry-widgets-v0: LibJF Resource Pack Entry Widgets 3.18.2
+			libjf-translate-v1: LibJF Translate 3.18.2
+			libjf-unsafe-v0: LibJF Unsafe 3.18.2
+			libjf-web-v1: LibJF Web 3.18.2
+		librarian-trade-finder: Librarian Trade Finder 2.2.4
+		litematica: Litematica 0.20.2
+		litematica-printer: Litematica Printer 3.5.0-sakura.6
+		lithium: Lithium 0.14.3+mc1.21.3
+		malilib: MaLiLib 0.22.3
+		minecraft: Minecraft 1.21.3
+		minihud: MiniHUD 0.33.4
+		modmenu: Mod Menu 12.0.0
+		morechathistory: More Chat History 1.3.1
+		nbttooltip: NBT Tooltip 1.2.1
+		nochatreports: No Chat Reports 1.21.3-v2.10.1
+		placeholder-api: Placeholder API 2.5.1+1.21.3
+		reeses-sodium-options: Reese's Sodium Options 1.8.0+mc1.21.3
+		respackopts: Resource Pack Options 4.12.2
+			io_gitlab_jfronny_muscript-all: muscript-all 1.8.0-SNAPSHOT
+			io_gitlab_jfronny_muscript-json: muscript-json 1.8.0-SNAPSHOT
+		sodium: Sodium 0.6.5+mc1.21.3
+			fabric-api-base: Fabric API Base 0.4.50+119c825640
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.16+fd37071f40
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 4.0.5+fd37071f40
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.54+73761d2e40
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.15+fd37071f40
+		sodium-extra: Sodium Extra 0.6.0+mc1.21.3
+		tweakermore: TweakerMore 3.23.1
+			conditional-mixin: conditional mixin 0.6.3
+		tweakeroo: Tweakeroo 0.22.2
+		viafabric: ViaFabric 0.4.16+88-main
+			viafabric-mc1212: ViaFabric for 1.21.2 0.4.16+88-main
+			viaversion: ViaVersion 5.1.1
+		worldedit: WorldEdit 7.3.9+6959-7adf70b
+	Loaded Shaderpack: (off)

@@ -1,0 +1,10 @@
+{
+  "notify": false,
+  "autoTool": true,
+  "goals": [],
+  "actionBar": false,
+  "lock": false,
+  "removeGoal": false,
+  "checkUpdate": true,
+  "warning": true
+}

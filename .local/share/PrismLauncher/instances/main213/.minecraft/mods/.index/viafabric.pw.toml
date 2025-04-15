@@ -1,0 +1,16 @@
+filename = 'ViaFabric-0.4.16+88-main.jar'
+name = 'ViaFabric'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.14.4', '1.15.2', '1.16.5', '1.17.1', '1.18.2', '1.19.4', '1.20.1', '1.20.4', '1.20.6', '1.21.2', '1.21.3' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '9317c06bfb4fe9c45ddc5c7e7ec72843023fa99c316d13befeeb92ffde0c4303e7494081ae33a663f8e70ec638187fdae1b94f5871d5214606c2d4b6f6b0b443'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YlKdE5VK/versions/CQ7NwggR/ViaFabric-0.4.16%2B88-main.jar'
+
+[update.modrinth]
+mod-id = 'YlKdE5VK'
+version = 'CQ7NwggR'

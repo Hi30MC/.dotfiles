@@ -1,0 +1,16 @@
+filename = 'librarian-trade-finder-2.2.5.jar'
+name = 'Librarian Trade Finder'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '15cc6f88783fccf1423a3810f9426f02d63d049ab2eb85dcc77fd31807d12de457c50395291a33bbf147668464301cdd1c43298639b8f6bd67cef23d76e24818'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cpbKeMPQ/versions/by3SrdYw/librarian-trade-finder-2.2.5.jar'
+
+[update.modrinth]
+mod-id = 'cpbKeMPQ'
+version = 'by3SrdYw'

@@ -1,0 +1,17 @@
+{
+  "options": {
+    "leftSide": false,
+    "modmenuIconTop": false,
+    "startRow": 1,
+    "commandEnabled": false,
+    "commandString": "/flashback mark",
+    "actions": [
+      "START_STOP",
+      "PAUSE_UNPAUSE",
+      "CANCEL",
+      "COMMAND"
+    ],
+    "editTitleScreen": false,
+    "startRowTitleScreen": 1
+  }
+}

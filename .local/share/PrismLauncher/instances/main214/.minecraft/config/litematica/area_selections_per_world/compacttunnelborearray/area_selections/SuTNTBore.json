@@ -1,0 +1,19 @@
+{
+  "name": "SuTNTBore",
+  "current": "SuTNTBore",
+  "boxes": [
+    {
+      "pos1": [
+        35,
+        77,
+        72
+      ],
+      "pos2": [
+        50,
+        75,
+        -48
+      ],
+      "name": "SuTNTBore"
+    }
+  ]
+}

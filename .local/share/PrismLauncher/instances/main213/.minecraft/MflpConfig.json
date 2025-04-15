@@ -1,0 +1,112 @@
+{
+  "macros": [
+    {
+      "name": "Tick freeze",
+      "commands": [
+        "/mflp freezeGame"
+      ],
+      "key": -1,
+      "repeatAmt": 1,
+      "isUneditable": false,
+      "isOn": true
+    },
+    {
+      "name": "Tick step",
+      "commands": [
+        "/tick step"
+      ],
+      "key": -1,
+      "repeatAmt": 1,
+      "isUneditable": false,
+      "isOn": true
+    }
+  ],
+  "settings": {
+    "AUTO_WELCOME_BACK": {
+      "lastName": "Menkoe",
+      "state": true,
+      "name": "Auto welcome back",
+      "defaultValue": false,
+      "tooltip": "Automatically says wb when someone comes back from being afk or joins synergy",
+      "type": "boolean"
+    },
+    "AUTO_WELCOME": {
+      "lastName": "BlooPVP",
+      "state": true,
+      "name": "Auto welcome",
+      "defaultValue": false,
+      "tooltip": "Automatically says welcome! when a new person joins synergy",
+      "type": "boolean"
+    },
+    "WB_FILTER": {
+      "stateIndex": 2,
+      "selection": [
+        "None",
+        "Whitelist",
+        "Blacklist"
+      ],
+      "name": "Auto wb filter",
+      "defaultValue": 0.0,
+      "tooltip": "A switch between no filter, a whitelist filter, and a blacklist",
+      "type": "list"
+    },
+    "WB_WHITELIST": {
+      "state": "",
+      "name": "Auto welcome back whitelist",
+      "defaultValue": "",
+      "tooltip": "The list of names to say wb to when using auto wb, separated by a space",
+      "type": "string"
+    },
+    "WB_BLACKLIST": {
+      "state": "theb0b_ LilIndigo1 typicalcutie Martinob12345 hidrojen001",
+      "name": "Auto welcome back blacklist",
+      "defaultValue": "",
+      "tooltip": "The list of names to ignore people when using auto wb, separated by a space",
+      "type": "string"
+    },
+    "WB_MESSAGE": {
+      "state": "wb %p",
+      "name": "Welcome back message",
+      "defaultValue": "wb",
+      "tooltip": "What message auto welcome back should say",
+      "type": "string"
+    },
+    "WELCOME_MESSAGE": {
+      "state": "Whalecum Tew SinRG! Do /cr then /p auto to get a plot or do /kms to get admin rank!",
+      "name": "Welcome message",
+      "defaultValue": "welcome!",
+      "tooltip": "What message auto welcome should say",
+      "type": "string"
+    },
+    "WB_RANK_WHITELIST": {
+      "stateIndex": 1,
+      "selection": [
+        "Everyone",
+        "Member +",
+        "Devoted +",
+        "Trusted +"
+      ],
+      "name": "Auto WB rank setting",
+      "defaultValue": 0.0,
+      "tooltip": "Rank filter for auto wb",
+      "type": "list"
+    },
+    "WB_DELAY": {
+      "state": 5,
+      "name": "Auto welcome back delay",
+      "defaultValue": 4.0,
+      "tooltip": "How long the bot should wait before saying wb after someone joins in GAME TICKS",
+      "type": "int"
+    },
+    "WB_COOLDOWN": {
+      "state": 5,
+      "name": "Auto welcome back cooldown",
+      "defaultValue": 4.0,
+      "tooltip": "The cooldown between the bot saying wb in seconds",
+      "type": "int"
+    }
+  },
+  "shownWelcomeScreen": true,
+  "autoReplies": [],
+  "fileVersion": "1.0.0"
+}

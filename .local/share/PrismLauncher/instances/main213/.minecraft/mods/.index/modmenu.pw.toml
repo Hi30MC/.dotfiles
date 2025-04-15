@@ -1,0 +1,26 @@
+filename = 'modmenu-12.0.0.jar'
+name = 'Mod Menu'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [
+    '1.21.2',
+    '1.21.2-pre1',
+    '1.21.2-pre2',
+    '1.21.2-pre3',
+    '1.21.2-pre4',
+    '1.21.2-pre5',
+    '1.21.2-rc1',
+    '1.21.2-rc1',
+    '1.21.3'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd215306281e7ad1da1037bc848c806c2e200d7eca39ccd2ca5fc25a03e3eacef2eb15b70fca1d832fb249aecc29a100fc87b9dacf90565fdf822b9a6df355af7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mOgUt4GM/versions/4xPSbh0l/modmenu-12.0.0.jar'
+
+[update.modrinth]
+mod-id = 'mOgUt4GM'
+version = '4xPSbh0l'

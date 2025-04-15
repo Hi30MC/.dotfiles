@@ -1,0 +1,1221 @@
+{
+  "version": 5,
+  "profiles": [
+    {
+      "version": 4,
+      "name": "Singleplayer Default",
+      "links": [],
+      "addToHistory": "OFF",
+      "showHudMessage": "OFF",
+      "resumeRepeating": "OFF",
+      "useRatelimit": "ON",
+      "macros": [
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.c",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//copy -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.0",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//perf off",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//sel",
+              "delayTicks": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": 4,
+      "name": "w/e tech",
+      "links": [],
+      "addToHistory": "OFF",
+      "showHudMessage": "OFF",
+      "resumeRepeating": "OFF",
+      "useRatelimit": "ON",
+      "macros": [
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.c",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//copy -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.0",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//sel",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.v",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -eas -m air",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.v",
+            "limitKeyName": "key.keyboard.left.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -o",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -o",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -o",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -eos -m air",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.v",
+            "limitKeyName": "key.keyboard.right.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -a",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -a",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -a",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//paste -eas -m air",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.0",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "/clearclipboard",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.x",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//cut -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.z",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//undo",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "SUBMIT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.z",
+            "limitKeyName": "key.keyboard.left.shift"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//undo 4",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.z",
+            "limitKeyName": "key.keyboard.left.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//redo",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.s",
+            "limitKeyName": "key.keyboard.left.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//shift 1",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.delete",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "Welcome to Synergy!",
+              "delayTicks": 0
+            },
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "Do /cr then /p auto to get started, or do \"/kms admin\" to recieve admin rank once you have [M] rank!",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.t",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//expand 1",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.g",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//contract 1 back",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.0",
+            "limitKeyName": "key.keyboard.left.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//clearhistory",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.down",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//rotate 90",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.down",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//rotate -90",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.right.control",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//perf off",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.f19",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "/up 0",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.1"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 1 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.2"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 2 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.3"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 3 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.4"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 4 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.5"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 5 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.6"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 6 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.7"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 7 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.8"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 8 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.divide",
+            "limitKeyName": "key.keyboard.keypad.9"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//move 9 -es",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.1"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 1 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.2"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 2 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.3"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 3 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.4"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 4 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.5"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 5 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.6"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 6 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.7"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 7 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.8"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 8 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.keypad.multiply",
+            "limitKeyName": "key.keyboard.keypad.9"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//stack 9 -e",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": false,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.down",
+            "limitKeyName": "key.keyboard.left.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "enabled": true,
+              "string": "//flip",
+              "delayTicks": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "spDefault": 0,
+  "mpDefault": 1,
+  "defaultConflictStrategy": "SUBMIT",
+  "defaultSendMode": "SEND",
+  "ratelimitCount": 4,
+  "ratelimitTicks": 20,
+  "ratelimitStrict": false,
+  "ratelimitSp": false
+}

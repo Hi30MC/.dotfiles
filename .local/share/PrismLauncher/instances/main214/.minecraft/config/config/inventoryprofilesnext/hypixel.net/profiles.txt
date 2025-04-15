@@ -1,0 +1,104 @@
+
+
+
+
+profile Saved activate HOT1
+	HOT1
+		"minecraft:compass"
+	HOT2
+		"minecraft:player_head"
+	HOT3
+		"minecraft:emerald"
+	HOT5
+		"minecraft:trapped_chest"
+	HOT8
+		"minecraft:gray_dye"
+	HOT9
+		"minecraft:nether_star"
+	HEAD
+		"minecraft:player_head"
+	CHEST
+		"minecraft:leather_chestplate"
+	FEET
+		"minecraft:leather_boots"
+
+profile Saved activate HOT1
+	HOT1
+		"minecraft:compass"
+	HOT2
+		"minecraft:player_head"
+	HOT3
+		"minecraft:emerald"
+	HOT5
+		"minecraft:trapped_chest"
+	HOT8
+		"minecraft:gray_dye"
+	HOT9
+		"minecraft:nether_star"
+	HEAD
+		"minecraft:player_head"
+	CHEST
+		"minecraft:leather_chestplate"
+	FEET
+		"minecraft:leather_boots"
+
+profile Saved activate HOT1
+	HOT1
+		"minecraft:compass"
+	HOT2
+		"minecraft:player_head"
+	HOT3
+		"minecraft:emerald"
+	HOT5
+		"minecraft:trapped_chest"
+	HOT8
+		"minecraft:gray_dye"
+	HOT9
+		"minecraft:nether_star"
+	HEAD
+		"minecraft:player_head"
+	CHEST
+		"minecraft:leather_chestplate"
+	FEET
+		"minecraft:leather_boots"
+
+profile Saved activate HOT1
+	HOT1
+		"minecraft:compass"
+	HOT2
+		"minecraft:player_head"
+	HOT3
+		"minecraft:emerald"
+	HOT5
+		"minecraft:trapped_chest"
+	HOT8
+		"minecraft:gray_dye"
+	HOT9
+		"minecraft:nether_star"
+	HEAD
+		"minecraft:player_head"
+	CHEST
+		"minecraft:leather_chestplate"
+	FEET
+		"minecraft:leather_boots"
+
+profile Saved activate HOT1
+	HOT1
+		"minecraft:compass"
+	HOT2
+		"minecraft:player_head"
+	HOT3
+		"minecraft:emerald"
+	HOT5
+		"minecraft:trapped_chest"
+	HOT8
+		"minecraft:gray_dye"
+	HOT9
+		"minecraft:nether_star"
+	HEAD
+		"minecraft:player_head"
+	CHEST
+		"minecraft:leather_chestplate"
+	FEET
+		"minecraft:leather_boots"
+

@@ -1,0 +1,13 @@
+{
+  "notificationConfig": {
+    "enabled": true,
+    "types": {
+      "hotbarsplus:actionbar": true,
+      "hotbarsplus:toast": true
+    }
+  },
+  "lastHotbarPage": {
+    "enabled": true,
+    "page": 0
+  }
+}

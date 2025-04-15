@@ -1,0 +1,5 @@
+{
+  "signingModes": {
+    "synergyserver.net:25565": "ALWAYS"
+  }
+}

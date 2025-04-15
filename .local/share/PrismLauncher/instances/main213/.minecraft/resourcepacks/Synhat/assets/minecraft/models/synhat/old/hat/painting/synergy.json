@@ -1,0 +1,6 @@
+{
+    "parent": "synhat/old/_parent/painting/painting",
+    "textures": {
+		"0": "synhat/old/painting/synergy"
+    }
+}

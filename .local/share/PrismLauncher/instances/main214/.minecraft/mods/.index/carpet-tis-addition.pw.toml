@@ -1,0 +1,16 @@
+filename = 'carpet-tis-addition-v1.66.0-mc1.21.4.jar'
+name = 'Carpet TIS Addition'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a23fd53aef45cbc0aa0dc589326e3af8e7eee52f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6356428
+project-id = 397510

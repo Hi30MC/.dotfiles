@@ -1,0 +1,50 @@
+//schem list -n
+/setblock 2889 105 205 minecraft:redstone_torch
+/clear
+/setblock 2889 105 205 minecraft:redstone_torch
+/clear
+/setblock 2889 105 205 minecraft:redstone_torch
+/clear
+//schem list -n
+/setblock 2889 105 205 minecraft:redstone_torch
+/m VipelyRS is cloud syncing working here?
+/r i cant see urs
+/r still cant see urs
+/m VipelyRS still cant see urs
+/r oh there we go
+/mw1
+/mw2
+/mw1
+/m wyyllou cannun :23
+/spectate
+/mw2
+/m wyyllou 3 for 3
+/r might leave while i'm up
+/r thanks
+/r go def
+/r mid and right
+/mw2
+/mw1
+/ping
+/sdpec
+/spoec
+/spectate
+/mw1
+/mw2
+/setblock 2889 105 205 minecraft:redstone_torch
+/clear
+/setblock 2889 105 205 minecraft:redstone_torch
+//stack 3
+//stack 4
+//calc 60*20
+/setblock 2889 105 205 minecraft:redstone_torch
+/clear
+/setblock 2889 105 205 minecraft:redstone_torch
+//schem list -n
+/setblock 2889 105 205 minecraft:redstone_torch
+/calc 240/20
+/setblock 2889 105 205 minecraft:redstone_torch
+/calc 262/20
+/clear
+/up 0
+/setblock 2889 105 205 minecraft:redstone_torch

@@ -1,0 +1,16 @@
+filename = 'blahaj-totem-1.7.3+1.21.4.jar'
+name = 'Blåhaj of Undying'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4fcbb2d6f595f3f9b4297960b1bbd3aa9ee95b1d532447d07bd7340ac60341a71e943e9a9108803f62a540a9a52f74919d6c68f8d3946c8f83e63751746786d3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aJb4vlkM/versions/4rtRGM6f/blahaj-totem-1.7.3%2B1.21.4.jar'
+
+[update.modrinth]
+mod-id = 'aJb4vlkM'
+version = '4rtRGM6f'

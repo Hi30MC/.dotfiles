@@ -1,0 +1,16 @@
+filename = 'authme-8.0.0+1.21.4.jar'
+name = 'Auth Me'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ce29c1113e3737e2ae061f9b4f688d9b737dc053'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5990588
+project-id = 356643

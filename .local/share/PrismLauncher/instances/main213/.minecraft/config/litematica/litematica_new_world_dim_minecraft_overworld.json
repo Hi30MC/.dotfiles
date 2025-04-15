@@ -1,0 +1,44 @@
+{
+  "selections": {
+    "mode": "NORMAL",
+    "current": "/home/ad/.local/share/PrismLauncher/instances/main204/.minecraft/config/litematica/area_selections/warden_farm.json"
+  },
+  "placements": {},
+  "schematic_projects_manager": {},
+  "operation_mode": "AREA_SELECTION",
+  "render_range": {
+    "mode": "ALL",
+    "axis": "y",
+    "layer_single": 0,
+    "layer_above": 0,
+    "layer_below": 80,
+    "layer_range_min": 0,
+    "layer_range_max": 0,
+    "hotkey_range_min": false,
+    "hotkey_range_max": false
+  },
+  "area_simple": {
+    "name": "Unnamed",
+    "current": "Unnamed",
+    "boxes": [
+      {
+        "pos1": [
+          8,
+          153,
+          36
+        ],
+        "pos2": [
+          36,
+          105,
+          8
+        ],
+        "name": "Unnamed"
+      }
+    ]
+  },
+  "tool_mode_data": {
+    "delete": {
+      "use_placement": false
+    }
+  }
+}

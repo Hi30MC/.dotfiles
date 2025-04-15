@@ -1,0 +1,19 @@
+{
+  "name": "scane farm",
+  "current": "scane farm",
+  "boxes": [
+    {
+      "pos1": [
+        58,
+        -59,
+        72
+      ],
+      "pos2": [
+        58,
+        -59,
+        72
+      ],
+      "name": "scane farm"
+    }
+  ]
+}

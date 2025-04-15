@@ -1,0 +1,16 @@
+filename = 'g4mespeed-1.4.9-mc1.21.3.jar'
+name = 'G4mespeed'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1856d2eed441d289d5e8db0e361c288e5cb9cb5d934e73a2365d286fe5ace44efd5d7f1f1bb7b72a18610ad992a09ba76aed346935d5b6cb3d06b6e4bd59e1d6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gW29KsnL/versions/oPV7qsy2/g4mespeed-1.4.9-mc1.21.3.jar'
+
+[update.modrinth]
+mod-id = 'gW29KsnL'
+version = 'oPV7qsy2'

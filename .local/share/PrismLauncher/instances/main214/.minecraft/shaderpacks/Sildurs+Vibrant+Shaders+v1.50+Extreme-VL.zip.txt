@@ -1,0 +1,3 @@
+#Wed Jul 26 12:58:53 EDT 2023
+minlight=0.029
+polishedRefl=true
