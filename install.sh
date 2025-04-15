@@ -26,11 +26,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.local/share/zs
 git clone https://github.com/zsh-users/zsh-completions.git ~/.local/share/zsh/scripts/zsh-completions
 
 # install secondary packages
-
 paru -S code cloudflare-warp-bin prismlauncher hyfetch prismlauncher-themes-git
 
-# tertiary packages
+# install themes into launcher
+ln -s /usr/share/prismlauncher-themes ~/.local/share/PrismLauncher/themes
 
+# tertiary packages
 paru -S jdk-openjdk jdk17-openjdk
 
 hyfetch
