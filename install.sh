@@ -9,7 +9,7 @@ cd paru
 makepkg -si
 
 # install base packages
-paru -S zsh firefox discord kde-connect alacritty starship
+paru -S zsh firefox discord kdeconnect alacritty starship
 
 # install vencord
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
