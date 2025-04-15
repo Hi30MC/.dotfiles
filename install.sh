@@ -27,4 +27,8 @@ git clone https://github.com/zsh-users/zsh-completions.git ~/.local/share/zsh/sc
 
 # install secondary packages
 
-paru -S code cloudflare-warp-bin
+paru -S code cloudflare-warp-bin prism-launcher
+
+# tertiary packages
+
+paru -S jdk-openjdk jdk17-openjdk
